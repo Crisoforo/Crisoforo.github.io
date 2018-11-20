@@ -144,10 +144,20 @@ position: fixed;
     left: -17%;
     position: relative;
     margin: 2% auto 2% auto;
-    background-color: #ffffff8c;
-    box-shadow:5px 10px 15px #777777;
+    background-color: #ffffff00;
+    
+    transition: background-color .5s, box-shadow .5s;
     
 }
+.content:hover{
+background-color: #ffffff8c;
+box-shadow:5px 10px 15px #777777;
+
+
+
+}
+
+
 .about{
     float: right;
     width: 74%;
@@ -158,7 +168,7 @@ position: fixed;
     font-family: Esteban, Georgia, 'Times New Roman', serif;
     line-height: 1.5em;
 }
-
+ 
 .me {
     margin: 2%;
     width: 20%; 
