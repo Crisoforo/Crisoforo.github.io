@@ -145,7 +145,6 @@ position: fixed;
     position: relative;
     margin: 2% auto 2% auto;
     background-color: #ffffff00;
-    
     transition: background-color .5s, box-shadow .5s;
     
 }
