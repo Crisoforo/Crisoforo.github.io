@@ -1,0 +1,85 @@
+*{
+    position: relative;
+    box-sizing: content-box;
+}
+body{
+    background-image: url("img/worn_dots/worn_dots.png");
+
+
+}
+header{
+    background-color: #ffffff8c;
+    border-bottom: solid 1px hsl(0, 0%, 66%);
+}
+
+header h1{
+background-color: #4aaaa5;
+padding: .5% 2%;
+color: white;
+text-align: center;
+font-size: 2em;
+height: 95%;
+background: linear-gradient(270deg, #306D6A, #80E4DF);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+-o-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+}
+
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+footer{
+    height: 45px;
+    line-height: 1.5em;
+text-align: center;
+color: #fffffd;
+width: 100%;
+float: left;
+position: fixed;
+    bottom: 0;
+ background-color: #777777;
+ border-top: 8px solid #4aaaa5;
+
+}
+
+
+.form-group{
+   
+    margin: 1% auto;
+    
+}
+
+.jumbotron{
+    margin: 4% auto;
+    background-color: #ffffff00;
+    transition: background-color .5s, box-shadow .5s;
+}
+
+.jumbotron:hover{
+
+    background-color: #ffffff8c;
+box-shadow:5px 10px 15px #777777;
+}
