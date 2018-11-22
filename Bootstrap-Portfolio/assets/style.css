@@ -4,7 +4,7 @@
 }
 body{
     background-image: url("img/worn_dots/worn_dots.png");
-
+    height: 100%;
 
 }
 header{
@@ -52,34 +52,42 @@ animation: AnimationName 30s ease infinite;
 }
 
 footer{
-    height: 45px;
-    line-height: 1.5em;
+height: 45px;
+line-height: 1.5em;
 text-align: center;
 color: #fffffd;
 width: 100%;
 float: left;
 position: fixed;
-    bottom: 0;
- background-color: #777777;
- border-top: 8px solid #4aaaa5;
+  bottom: 0;
+background-color: #777777;
+border-top: 8px solid #4aaaa5;
 
 }
 
+.content{
+   
+    min-height: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.d-block{
+    margin: 2%;
+}
 
 .form-group{
-   
-    margin: 1% auto;
-    
+margin: 1% auto;
 }
 
 .jumbotron{
-    margin: 4% auto;
-    background-color: #ffffff00;
-    transition: background-color .5s, box-shadow .5s;
+margin: 4% auto;
+background-color: #ffffff00;
+transition: background-color .5s, box-shadow .5s;
 }
 
 .jumbotron:hover{
-
-    background-color: #ffffff8c;
+background-color: #ffffff8c;
 box-shadow:5px 10px 15px #777777;
 }
