@@ -66,16 +66,14 @@ border-top: 8px solid #4aaaa5;
 }
 
 .content{
-   
+    margin-top: 1.3%;
     min-height: 100%;
     position: relative;
     z-index: 1;
 
 }
 
-.d-block{
-    margin: 2%;
-}
+
 
 .form-group{
 margin: 1% auto;
