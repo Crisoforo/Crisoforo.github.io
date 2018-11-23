@@ -1,0 +1,352 @@
+*{
+    position: relative;
+    box-sizing: content-box;
+}
+
+body{
+    margin: auto;
+    background-image: url("../images/worn_dots/worn_dots.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-family: Esteban, Georgia, 'Times New Roman', serif;
+
+}
+h1{
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px #777777;
+    background-color: #4aaaa5;
+    padding: 1%;
+    width: 13%;
+    font-size: 1.5em;
+    margin-top: 0;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+    float: left;
+    margin-left: 16.4%;
+    
+background: linear-gradient(270deg, #306D6A, #80E4DF);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+-o-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+}
+
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+header{
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff8c;
+    border-bottom: solid 1px #777777;
+    float: left;
+}
+nav{
+    
+    width: 100%;
+    margin-right: 17%;
+    float: left;
+
+}
+nav a{
+    float: right;
+    padding: 0% 1% 0% 1%;
+    margin-top: 1.3%;
+    color: #666666;
+
+}
+nav a:nth-child(2){
+   
+   padding-right: 19%;
+   
+
+}
+nav a:nth-child(3){
+    border-left: solid 2px  #7777773a;
+    border-right:solid 2px  #7777773a;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+
+color: #777777;
+
+}
+hr{
+    width: 96%;
+    margin: 2% auto;
+    border: solid #777777 .5px;
+
+}
+
+
+h2{
+    color: #4aaaa5;
+    float: left;
+    width: 96%;
+    margin-left: 2%;
+    font-weight: 500;
+    margin: 1% 2%;
+    font-size: 1.5em;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+
+}
+
+footer p{
+    margin-top: 10px;
+    font-size: 12px;
+
+}
+
+footer{
+    height: 45px;
+    line-height: 1.5em;
+text-align: center;
+color: #fffffd;
+width: 100%;
+float: left;
+position: fixed;
+    bottom: 0;
+ background-color: #777777;
+ border-top: 8px solid #4aaaa5;
+
+}
+
+.content{
+    padding-bottom: 1%;
+    width: 960px;
+    float: left;
+    margin: 5% 14%;
+    background-color: #ffffff00;
+    transition: background-color .5s, box-shadow .5s;
+    
+}
+.content:hover{
+background-color: #ffffff8c;
+box-shadow:5px 10px 15px #777777;
+
+
+
+}
+p{
+    width: 100%;
+}
+
+.about{
+    float: right;
+    width: 74%;
+    margin-right: 2%;
+    font-size: 1em;
+    font-weight: 200;
+    text-align: justify;
+    font-family: Esteban, Georgia, 'Times New Roman', serif;
+    line-height: 1.5em;
+}
+ 
+.me {
+    margin: 2%;
+    width: 20%; 
+    border-radius: 50%;
+}
+.photos{
+    width: 31%;
+    margin: 10px 0px 0px 15px;
+}
+.desc{
+    background-color: #4aaaa5;
+}
+.form{
+    width: 99%;
+    height: 15px;
+    margin: 1% auto;
+   
+}
+
+.contact{
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+  
+}
+button{
+    width: 8%;
+    height: 30px;
+    margin: 1% auto 0% auto;
+    background-color: #4aaaa5;
+    color: #fffffd;
+    border: none;
+    transition: background-color .5s, width .5s, height .5s;
+}
+button:hover{
+    background-color: #306D6A;
+    width: 9%;
+    height: 40px;
+}
+ input:last-of-type{
+     height: 145px;
+     overflow: auto;
+ }
+
+ .container {
+     display: inline-block;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 30%;
+    margin: 1%;
+}
+.bottom-center {
+    position: absolute;
+    bottom: 25px;
+    padding: 3% 0 3% 0;
+    width: 100%;
+    background-color: #4aaaa5;
+}
+
+#gallery{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    text-align: -webkit-center;
+}
+
+
+
+@media screen and (max-width: 980px) {
+    header {
+        position: static;
+    }
+    h1{
+        width: 100%;
+        margin: 0;
+    }
+    nav a{
+        margin: 1.9% 0%; 
+    }
+    .content{
+        max-width: 980px;
+       float: left;
+       position: static;
+       margin: 1%;
+      
+    }
+    .me{
+        margin: 0 auto;
+        display: block;
+    }
+    .about{
+        font-size: 90%;
+        float: left;
+        width: 100%;
+        width: 93%;
+        margin: 2%;
+    }
+    .paragraph_content{
+        width: 100%;
+    }
+    .container{
+
+        width: 95%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        position: static;
+    }
+    h1{
+        width: 100%;
+        margin: 0;
+    }
+    nav a{
+        margin: 1.9% 0%; 
+    }
+    .content{
+        max-width: 768px;
+       float: left;
+       position: static;
+      
+    }
+    .me{
+        margin: 0 auto;
+        display: block;
+    }
+    .about{
+        font-size: 90%;
+        float: left;
+        width: 100%;
+        width: 93%;
+        margin: 2%;
+    }
+    .paragraph_content{
+        width: 100%;
+    }
+    .container{
+
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+    h1{
+        width: 100%;
+        margin: 0;
+    }
+    nav a{
+        margin: 1.9% 0%; 
+    }
+    .content{
+        max-width: 640px;
+       float: left;
+       left:0%;
+       position: relative;
+    }
+    .me{
+        margin: 0 auto;
+        display: block;
+    }
+    .about{
+        font-size: 90%;
+        float: left;
+        width: 100%;
+        width: 93%;
+        margin: 3%;
+    }
+    .paragraph_content{
+        width: 100%;
+    }
+    .container{
+
+        width: 96%;
+    }
+}
