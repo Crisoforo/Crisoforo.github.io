@@ -1,0 +1,70 @@
+*{
+    position: relative;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url("../images/qbkls/qbkls.png");
+    
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-size: 23px;
+    padding-top: 1%;
+    margin: 0;
+    background-color: lemonchiffon;
+    float: left;
+}
+
+.ins {
+    padding: 1%;
+    width: 100%;
+    background-color: lightsalmon;
+    float: left;
+    text-align: center;
+}
+
+#randyNum{
+    width: 100%;
+    height: 35px;
+    background-color: lightcoral;
+    float: left;
+    padding: .5%;
+    text-align: center;
+    margin: 0;
+
+}
+
+#wins{
+    width: 100%;
+    background-color: aquamarine;
+    float: left;
+    margin: 0;
+    text-align: center;
+}
+#losses{
+    width: 100%;
+    background-color: aquamarine;
+    float: left;
+    margin: 0;
+    text-align: center;
+}
+
+.meth{
+    width: 14%;
+    transition: width .5s;
+    cursor: pointer;
+}
+.meth:hover{
+    width: 15%;
+}
+.crystal{
+    left: 20%;
+  
+}
+#score{
+    text-align: center;
+}

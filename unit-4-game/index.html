@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal collector</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="row">
+        <div id="col-lg-12">
+            <h1>Crystal Collector!</h1>
+        </div>
+    </div>
+    <div id="row" class="ins">
+        <div id="col-lg-10">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal</p>
+        </div>
+    </div>
+    <div id="row">
+        <div id="col-md-6">
+            <p id="randyNum">Random number: </p>
+        </div>
+        <div id="col-md-6">
+            <p id="wins">Wins: </p>
+            <p id="losses">Losses: </p>
+        </div>
+    </div>
+    <div id="row">
+        <div id="col-lg-8" class="crystal">
+            <img class="meth" id="quartz" src="assets/images/noun_quartz crystal_580157.png" alt="Cyrstal by Joshua Nichol from the Noun Project"/>
+            <img class="meth" id="crystal" src="assets/images/noun_Crystal_570596.png" alt="Cyrstal by Joshua Nichol from the Noun Project"/>
+            <img class="meth" id="pyrite" src="assets/images/noun_Pyrite Crystal_570592.png" alt="Cyrstal by Joshua Nichol from the Noun Project"/>
+            <img class="meth" id="glass" src="assets/images/noun_Cyrstal_575753.png" alt="Cyrstal by Joshua Nichol from the Noun Project"/>
+        </div>
+    </div>
+    <div id="row">
+        <div id="col-lg-12 chido">
+            <h3>Your total score is:</h3>
+            <h2 id="score">0</h2>
+        </div>
+    </div>
+
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
