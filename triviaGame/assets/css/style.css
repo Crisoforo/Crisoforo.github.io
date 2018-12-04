@@ -1,0 +1,55 @@
+*{
+    position: relative;
+}
+body{
+    background-image: url("../images/congruent_pentagon/congruent_pentagon.png");
+}
+
+button{
+    background: none;
+    width: 9%;
+    height: 60px;
+    margin: 2%;
+    font-size: 25px;
+    border: none;
+    
+}
+button:hover{
+    border: solid 4px rgb(26, 255, 129);
+}
+
+button:focus, button:active, button.active, button:focus:active {
+    background-image: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+button:active{
+    opacity: .5;
+
+}
+
+
+
+
+
+
+/* Classes */
+.content{
+    text-align: center;
+}
+.container{
+    margin-top: 4%;
+    display: none;
+}
+
+/* Show your ID */
+#correct, #incorrect{
+    margin-top: 10%;
+    visibility: hidden;
+    
+}
+#start{
+    margin-top: 15%;
+}
